@@ -151,16 +151,13 @@ p{
     position: relative;
 }
 
-.cards{
-
-}
 
 .card{
     height: 171px;
     width: 586px;
     border-radius: 8px;
     border: 2px solid whitesmoke;
-    drop-shadow:(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow:(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin: 20px;
 }
 .card-details{
@@ -194,6 +191,20 @@ p{
 .reward-card:hover{
     transform: translate(80px, 0);
     transition: transform 530ms ease-in-out;
+}
+
+.sponsors{
+    display: flex;
+    margin: 100px;
+    gap: 100px;
+    justify-content: center;
+    filter: grayscale(1);
+}
+
+footer{
+    height: 100px;
+    background-color: #FFF4E7;
+    text-align: center;
 }
 
 /* media queries */
