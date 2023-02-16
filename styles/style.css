@@ -220,25 +220,13 @@ p{
     margin-bottom: 130px;
 }
 
-/* Footer */
-
-footer{
-    display: flex;
-    margin: auto;
-    height: 100px;
-    margin-top: 100px;
-    background-color: #FFF4E7;
-    align-items: center;
-    text-align: center;
-}
-
 /* Form part (bonus part) */
 
 form .form1{
     margin-top: 10px;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     max-width: 100%;
     align-items: center;
 }
@@ -256,6 +244,21 @@ form input{
 form input:focus{
     background-color: #ebb16fa1;
 }
+
+/* Footer */
+
+footer{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    margin-top: 100px;
+    background-color: #FFF4E7;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 
 
 /*All media queries for mobile responsiveness */
